@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+  <title>My Bucket List</title>
+</head>
+<body>
+  <header>
+    <h1>My Bucket List</h1>
+  </header>
+
+  <div class="about-section">
+    <img src="About-me.jpg">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>Hello! I'm Sarthak Sabharwal. A fresher at JIIT Noida, currently pursuing B.Tech ECE. 
+        I have a passion for technology and a love for travel. I enjoy exploring new places, learning new skills 
+        and setting ambitious goals for myself.</p>
+      </p>
+    </div>
+  </div>
+
+  <div class="goals-section">
+    <div onclick="document.getElementById('travel-goals').scrollIntoView({ behavior: 'smooth' });">
+      <img src="Travel.jpg">
+      <p>Travel Goals</p>
+    </div>
+    <div onclick="document.getElementById('skill-goals').scrollIntoView({ behavior: 'smooth' });">
+      <img src="Skills.jpg">
+      <p>Skill Goals</p>
+    </div>
+    <div onclick="document.getElementById('life-goals').scrollIntoView({ behavior: 'smooth' });">
+      <img src="Life.jpg">
+      <p>Life Goals</p>
+    </div>
+  </div>
+
+  <section id="travel-goals">
+    <h2>Travel Goals</h2>
+    <ul>
+      <li>Trek Himalayan trails</li>
+      <li>Bike across mountains</li>
+      <li>Visit Japan & NYC</li>
+      <li>Explore Swiss Alps</li>
+      <li>Attend live F1 race</li>
+      <li>Ride Ladakh solo</li>
+      <li>Travel with drone gear</li>
+      <li>Visit all 7 continents</li>
+
+    </ul>
+  </section>
+
+  <section id="skill-goals">
+    <h2>Skill Goals</h2>
+    <ul>
+      <li>Master drone technology</li>
+      <li>Learn embedded systems</li>
+      <li>Proficiency in programming languages</li>
+      <li>Advance in full-stack dev</li>
+      <li>Code own AI tools</li>
+      <li>Build IoT projects</li>
+      <li>Learn video editing</li>
+      <li>Create travel vlogs</li>
+    </ul>
+  </section>
+
+  <section id="life-goals">
+    <h2>Life Goals</h2>
+    <ul>
+      <li>Own a Porsche and a BMW</li>
+      <li>Buy a superbike</li>
+      <li>Own a bungalow</li>
+      <li>Farmhouse in North India</li>
+      <li>Get a good job</li>
+      <li>Have a gaming setup</li>
+      <li>Open a cafe</li>
+      <li>Have a sneaker collection</li>
+
+    </ul>
+  </section>
+</body>
+</html>
